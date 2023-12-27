@@ -5,7 +5,7 @@ import Home from './components/Home';
 
 const provider = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Header />}>
+    <Route path='suggestionsApp' element={<Header />}>
       <Route index element={<Home/>}/>
     </Route>
   )
