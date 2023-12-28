@@ -8,13 +8,13 @@ const Header = () => {
       <nav className="nav main-nav">
         <ul>
             <li>
-                <Link to='Home'>Home</Link>
+                <Link to='/suggestionsApp'>Home</Link>
             </li>
             <li>
                 <Link to='Anime'>Anime</Link>
             </li>
             <li>
-                <Link to='Movie'>Movies</Link>
+                <Link to='Movies'>Movies</Link>
             </li>
             <li>
                 <Link to='Music'>Music</Link>
