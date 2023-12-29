@@ -41,10 +41,7 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "dotenv": "^16.3.1"
-=======
+    "dotenv": "^16.3.1",
     "gh-pages": "^6.1.1"
->>>>>>> f0ac748138905d4f21236b15d199a5cbab5a4198
   }
 }
