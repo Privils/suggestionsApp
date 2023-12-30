@@ -21,8 +21,7 @@ const Header = () => {
             </li>
         </ul>
       </nav>
-    <h1 className="name">Pass time suggestions
-    </h1>
+      <h1 className='name'>pass time suggestions</h1>
   </header>
   <main>
     <Outlet />
