@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import image_1 from '../components/images/radio-cassette-3634616_1280.png';
-
 const Music = () => {
     const [music, setMusic] = useState([]);
 
