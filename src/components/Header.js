@@ -8,7 +8,7 @@ const Header = () => {
       <nav className="nav main-nav">
         <ul>
             <li>
-                <Link to='/suggestionsApp'>Home</Link>
+                <Link to='/suggestionsAppnpm run b'>Home</Link>
             </li>
             <li>
                 <Link to='Anime'>Anime</Link>
