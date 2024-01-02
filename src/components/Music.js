@@ -13,7 +13,7 @@ const Music = () => {
                 .then(response => response.json())
                 .then(data => {
                     setMusic(data.artists.artist);
-                    console.log(data.artists.artist)
+                    //console.log(data.artists.artist)
                 });
         } catch (error) {
             console.log('Error is ', error);
@@ -23,7 +23,8 @@ const Music = () => {
     return (
         <>
             <main id="main">
-                {music.map((values, index, imgIndex) => (
+                {
+                music.map((values, index, imgIndex) => (
                     <div key={index} className="movie">
                          {values.image.length > 0 && (
                             <img src={values.image[0]['#text']} alt={values.name} />
@@ -32,10 +33,15 @@ const Music = () => {
                             <h2>{values.name}</h2>
                         </div>
                     </div>
-                ))}
+                ))
+                }
             </main>
         </>
     );
 }
-
+if (document.readyState == 'loading') {
+    document.addEventListener('DOMContentLoaded', Music)
+ } else {
+    Music()
+ }
 export default Music;

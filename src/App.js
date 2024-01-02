@@ -8,7 +8,7 @@ import Movies from './components/Movies'
 
 const provider = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='suggestionsApp' element={<Header />}>
+    <Route path='suggestionsApp' element={<Header/>}>
       <Route index element={<Home/>}/>
       <Route path='Music' element={<Music />}/>
       <Route path='Anime' element={<Anime />}/>
@@ -23,5 +23,9 @@ function App() {
 </>
   );
 }
-
+if (document.readyState == 'loading') {
+  document.addEventListener('DOMContentLoaded', App)
+} else {
+  App()
+}
 export default App;
