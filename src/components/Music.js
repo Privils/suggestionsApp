@@ -41,7 +41,7 @@ const Music = () => {
 }
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', Music)
- } else {
+  } else {
     Music()
- }
+  }
 export default Music;

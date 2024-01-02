@@ -23,9 +23,5 @@ function App() {
 </>
   );
 }
-if (document.readyState == 'loading') {
-  document.addEventListener('DOMContentLoaded', App)
-} else {
-  App()
-}
+
 export default App;
