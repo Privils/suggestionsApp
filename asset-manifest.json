@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/suggestionsApp/static/css/main.a09a8eaf.css",
-    "main.js": "/suggestionsApp/static/js/main.8785e97f.js",
+    "main.js": "/suggestionsApp/static/js/main.7092d571.js",
     "static/js/787.7e703029.chunk.js": "/suggestionsApp/static/js/787.7e703029.chunk.js",
     "static/media/R.jpg": "/suggestionsApp/static/media/R.edbf7836e3c9596703dd.jpg",
     "static/media/radio-cassette-3634616_1280.png": "/suggestionsApp/static/media/radio-cassette-3634616_1280.f2b1a0653cc77e26d614.png",
     "static/media/movie-1328405_1280.jpg": "/suggestionsApp/static/media/movie-1328405_1280.78f0f0a1a62fdeed3430.jpg",
     "index.html": "/suggestionsApp/index.html",
     "main.a09a8eaf.css.map": "/suggestionsApp/static/css/main.a09a8eaf.css.map",
-    "main.8785e97f.js.map": "/suggestionsApp/static/js/main.8785e97f.js.map",
+    "main.7092d571.js.map": "/suggestionsApp/static/js/main.7092d571.js.map",
     "787.7e703029.chunk.js.map": "/suggestionsApp/static/js/787.7e703029.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a09a8eaf.css",
-    "static/js/main.8785e97f.js"
+    "static/js/main.7092d571.js"
   ]
 }
